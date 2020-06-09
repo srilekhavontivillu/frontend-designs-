@@ -1,0 +1,90 @@
+
+*{
+    margin:0;
+    outline:0;
+}
+h1 img{
+    float: right;
+    margin-top:7px;
+    margin-right:10px;
+    width: 40px;
+    height: 40px;
+  }
+.main{
+    display: flex;
+}
+.menu{
+    flex-basis:70%;
+    border-right: 0.5px solid grey;
+    height: 800px;
+
+}
+h2{
+    text-align: center;
+    margin-bottom:20px;
+}
+
+h3{
+    margin-top:40px;
+    margin-left:10px;
+}
+h4{
+    margin-bottom:1%;
+    margin-left:2%;
+}
+hr{
+    margin-top:20px;
+}
+button{
+    margin-top:1px;
+    width:20%;
+    height:30px;
+    color:white;
+    background-color: crimson;
+
+}
+.b{
+    width:10%;
+    height:30px;
+    color:white;
+    background-color: crimson;
+}
+
+
+.calc{
+flex-basis: 30%;
+margin-top:2px;
+
+}
+.head{
+    background-color: crimson;
+    width: 100%;
+    color:white;
+}
+.h{
+    font-size:50px;
+}
+.name{
+    background-color: black;
+    width:70%;
+    color:white;
+}
+.para{
+    font-size: 60px;
+}
+select{
+    margin-left:20%;
+}
+.pa{
+    text-align: right;
+    margin-right:10%;
+  
+}
+.but{
+    width:60px;
+    height:40px;
+  margin-left:150px;
+  margin-top:0;
+  background-color: crimson;
+  color:white;
+}

@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    border:0;
+    
+}
+
+.container{
+    display: flex;
+   
+}
+.app-logo img{
+    width:120px;
+    height: 120px;
+    padding:5px
+    
+}
+
+.login-bg
+{
+    flex-basis: 75%;
+    height:100vh;
+    background-image:url(../images/restaurant.jpg);
+    background-repeat: no-repeat;
+    
+
+}
+
+.login-form h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    text-decoration-color: royalblue;
+    text-shadow:3px 2px black;
+    padding:2px;
+}
+ input[type=text],input[type=password],input[type=submit]{
+    display:block;
+    width: 80%;
+    padding:10px;
+    margin:5px;
+    display: inline-block;
+    
+}
+input:focus{
+    width:150px;
+}
+.login-form{
+    border-style:solid;
+    border-color: black;
+    border-width: 20px;
+    padding: 5%;
+    margin-right:20px;
+
+
+}
+.sub{
+    background-color:crimson;
+    color:white;
+}
+
+.sub:hover{
+    transform :scale(0.96);
+}
+
